@@ -3,6 +3,6 @@ console.log("Number of categories: ", categ.length);
 categ.forEach(el => {
   console.log("Category: ", el.firstElementChild.innerHTML);
   console.log("Elements: ", el.querySelectorAll("li").length);
-// console.log("Elements: ", el.lastElementChild.children.length);
+
   
 });
